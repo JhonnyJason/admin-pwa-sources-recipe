@@ -1,6 +1,6 @@
 const exec = require("child_process").exec
 const pathModule = require("path")
 
-var toolsetDir = pathModule.resolve(process.cwd(), "toolset")
-var scriptPath = pathModule.resolve(toolsetDir, "prepareThingyForPwa.pl")
-exec(scriptPath, {cwd:toolsetDir}, (err, out, stderr) => console.log(out + "\nindividualized pwa!"))
+// var scriptPath = pathModule.resolve(process.cwd(), "script.sh")
+// exec(scriptPath, {cwd:toolsetDir}, (err, out, stderr) => console.log(out + "\nindividualized!"))
+console.log("individualized the admin-pwa-sources, not yet^^...")
